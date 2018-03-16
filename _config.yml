@@ -1,7 +1,7 @@
 # Site settings
 title: Yuan Blog
 SEOTitle: dodoYuan的博客
-header-img: img/post-bg-universe.jpg
+header-img: img/desktop-geek.jpg
 email: dodoyuanqijie@gmail.com
 description: "Every failure is leading towards success."
 keyword: "Yuan, dodoYuan的博客, Yuanqijie, python, go, Linux"
@@ -12,7 +12,7 @@ github_repo: "https://github.com/dodoyuan/dodoyuan.github.io.git" # you code rep
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "岁月不饶人，我又何尝绕过岁月"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar_m.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -103,7 +103,7 @@ friends: [
         href: "http://zhengwuyang.com"
     },{
         title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        href: "http://www.jianshu.com/u/e87b13f1f05c"
     },{
         title: "Apple",
         href: "https://apple.com"
