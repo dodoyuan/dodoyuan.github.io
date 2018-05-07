@@ -35,6 +35,7 @@ vxlan是在三层网络上封装二层协议，在原始数据包上增加了50�
 如上，VTEP主要实现对数据包进行封装和解封装，同时还会进行mac到VTEP IP的地址学习。
 >VXLAN uses VXLAN tunnel endpoint (VTEP) devices to map tenants end devices to VXLAN segments and to perform VXLAN encapsulation and de‐encapsulation. Each VTEP function has two interfaces.The IP interface has a unique IP address that identifies the VTEP device on the transport IP network known as the infrastructure VLAN. The VTEP device uses this IP address to encapsulate Ethernet frames and transmits the encapsulated packets to the transport network through the IP interface. A VTEP
 device also discovers the remote VTEPs for its VXLAN segments and learns remote MAC Address‐to‐VTEP mappings through its IP interface. The functional components of VTEPs and the logical topology that is created for Layer 2 connectivity across the transport IP network is shown in this Figure.
+
 #### 4、数据流图
 ![image.png](https://upload-images.jianshu.io/upload_images/3635313-6c129b35382e8410.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 >In this Figure, Host‐A and Host‐B in VXLAN segment 10 communicate with each other through the VXLAN tunnel between VTEP‐1 and VTEP‐2. This example assumes that address learning has been done on both sides, and corresponding MAC‐to‐VTEP mappings exist on both VTEPs. When Host‐A sends traffic to Host‐B, it forms Ethernet frames with MAC‐B address of Host‐B as the destination MAC address and sends them out to VTEP‐1. VTEP‐1, with a mapping of MAC‐B to VTEP‐2 in its mapping table, performs VXLAN encapsulation on the packets by adding VXLAN, UDP, and outer IP address header to it. In the outer IP address header, the source IP address is the IP address of VTEP‐1, and the destination IP address is the IP address of VTEP‐2. VTEP‐1 then performs an IP address lookup for the IP address of VTEP‐2 to resolve the next hop in the transit network and subsequently uses the MAC address of the next‐hop device to further encapsulate the packets in an Ethernet frame to send to the next‐hop device.
@@ -113,6 +114,6 @@ cirros-vm2 的 MAC 为 fa:16:3e:1d:23:a3。 VTEP IP 为 166.66.16.11。
 fdb 中保存了 cirros-vm1 和 dhcp 的 port 信息。 当需要与它们通信时，计算节点 VTEP 知道应该将数据包直接发送给控制节点的 VTEP。
 
 
-#### 参考
+### 参考
 https://networkop.co.uk/blog/2016/05/06/neutron-l2pop/
 [l2 population 配置](https://www.ibm.com/developerworks/community/blogs/132cfa78-44b0-4376-85d0-d3096cd30d3f/entry/%E9%85%8D%E7%BD%AE_L2_Population_%E6%AF%8F%E5%A4%A95%E5%88%86%E9%92%9F%E7%8E%A9%E8%BD%AC_OpenStack_114?lang=en_us)
