@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee94ec9e-fe02-4d46-ac8b-5eb2e68d3350" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-5-10-openstack-安装小记.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-5-14-openstack网络基础.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-10-11-多路径路由技术.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-10-15-RouteFlow学习.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-10-20-segment-routing基础.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-5-14-openstack网络基础.md" afterPath="$PROJECT_DIR$/_posts/2017-5-14-openstack网络基础.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-2-15-neutron-WSGI-app-加载过程.md" afterPath="$PROJECT_DIR$/_posts/2018-2-15-neutron-WSGI-app-加载过程.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-2-17-neutron-web-serer启动过程.md" afterPath="$PROJECT_DIR$/_posts/2018-2-17-neutron-web-serer启动过程.md" />
     </list>
@@ -41,21 +43,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-2-15-neutron-WSGI-app-加载过程.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-2-15-neutron-WSGI-app-加载过程.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="88">
-                <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-2-17-neutron-web-serer启动过程.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-2-17-neutron-web-serer启动过程.md">
+      <file leaf-file-name="2017-5-14-openstack网络基础.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-5-14-openstack网络基础.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
@@ -67,12 +56,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-5-10-openstack-安装小记.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-5-10-openstack-安装小记.md">
+      <file leaf-file-name="2016-10-11-多路径路由技术.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-10-11-多路径路由技术.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -80,12 +69,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-5-14-openstack网络基础.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-5-14-openstack网络基础.md">
+      <file leaf-file-name="2016-10-15-RouteFlow学习.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-10-15-RouteFlow学习.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2288">
-                <caret line="104" column="6" lean-forward="false" selection-start-line="104" selection-start-column="6" selection-end-line="104" selection-end-column="6" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-10-20-segment-routing基础.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-10-20-segment-routing基础.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1056">
+                <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -112,10 +114,13 @@
         <option value="$PROJECT_DIR$/_posts/2017-9-12-python知识点总结.md" />
         <option value="$PROJECT_DIR$/_posts/2017-10-6-python知识点总结二.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/_posts/2018-2-17-neutron-web-serer启动过程.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-2-15-neutron-WSGI-app-加载过程.md" />
         <option value="$PROJECT_DIR$/_posts/2017-5-10-openstack-安装小记.md" />
         <option value="$PROJECT_DIR$/_posts/2017-5-14-openstack网络基础.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-2-15-neutron-WSGI-app-加载过程.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-2-17-neutron-web-serer启动过程.md" />
+        <option value="$PROJECT_DIR$/_posts/2016-10-11-多路径路由技术.md" />
+        <option value="$PROJECT_DIR$/_posts/2016-10-15-RouteFlow学习.md" />
+        <option value="$PROJECT_DIR$/_posts/2016-10-20-segment-routing基础.md" />
       </list>
     </option>
   </component>
@@ -350,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528875049416</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add post">
+      <created>1528876413195</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1528876413195</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -381,9 +393,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add post" />
     <MESSAGE value="neutron 分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="neutron 分析" />
+    <MESSAGE value="add post" />
+    <option name="LAST_COMMIT_MESSAGE" value="add post" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -727,8 +739,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-2-15-neutron-WSGI-app-加载过程.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="88">
-            <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <first_editor relative-caret-position="198">
+            <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
@@ -738,8 +750,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-2-17-neutron-web-serer启动过程.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
+          <first_editor relative-caret-position="198">
+            <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
@@ -760,8 +772,41 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-5-14-openstack网络基础.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2288">
-            <caret line="104" column="6" lean-forward="false" selection-start-line="104" selection-start-column="6" selection-end-line="104" selection-end-column="6" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-10-11-多路径路由技术.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-10-15-RouteFlow学习.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-10-20-segment-routing基础.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1056">
+            <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />

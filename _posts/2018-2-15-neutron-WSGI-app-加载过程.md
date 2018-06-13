@@ -7,7 +7,7 @@ author:     dodoYuan
 header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
-    - openstack neutron
+    - neutron
 ---
 
 #### 1、WSGI接口介绍

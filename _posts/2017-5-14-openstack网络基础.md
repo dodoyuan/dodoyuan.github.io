@@ -7,7 +7,7 @@ author:     dodoYuan
 header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
-    - openstack & 网络基础
+    - 网络基础
 ---
 
 
